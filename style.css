@@ -31,6 +31,8 @@ section {
 #About-Me-And-Projects {
 	display: grid;
 	grid-template-columns: 50% 50%;
+    background-color: #9DB2BF;
+    font-size: 16px;
 }
 
 .Panel {
@@ -41,6 +43,8 @@ section {
 #Contacts {
 	text-align: center;
 	border: 2px solid #20303c;
+    background-color: #DDE6ED;
+    display: grid;
 }
 
 footer {
