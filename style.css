@@ -41,7 +41,7 @@ body {
 }
 
 .Info {
-    display: grid;
+    grid-template-columns: auto auto;
 }
 
 /* Nav Bar */
