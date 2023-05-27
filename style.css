@@ -1,3 +1,28 @@
+
+header {
+    background-color: #27374D;
+    box-sizing: border-box;
+    width: auto;
+    height: 120px;
+    color: white;
+    font-size: 36px ;
+    text-align: center;
+    margin: 0;
+}
+
+#main-menu {
+    background-color: #526D82;
+    box-sizing: border-box;
+    width: auto;
+    height: 120px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 120px;
+}
+
+
+
 body {
     background-color: #f9fafa;
     color: #20303c;
@@ -10,8 +35,14 @@ body {
     padding: 0;
     width: 100%;
     display: block;
+    border-style: solid;
+    border: 2px solid #20303c;
+    padding-bottom: 200px;
 }
 
+.Info {
+    display: grid;
+}
 
 /* Nav Bar */
 body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
@@ -23,7 +54,7 @@ body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
   text-decoration: none;
   padding-left: 25px;
   text-transform: uppercase;
-  color: #20303c;
+  color: #e7e4e4;
 	text-shadow: 1px 1px 1px #ccc;
 }
 
