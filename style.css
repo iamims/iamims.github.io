@@ -1,13 +1,20 @@
 
+
 header {
     background-color: #27374D;
     box-sizing: border-box;
     width: auto;
     height: 120px;
+	line-height: 120px;
     color: white;
     font-size: 36px ;
     text-align: center;
     margin: 0;
+	padding: 0;
+}
+
+section {
+	margin-top: 0px;
 }
 
 #main-menu {
@@ -21,7 +28,24 @@ header {
     line-height: 120px;
 }
 
+#About-Me-And-Projects {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
 
+.Panel {
+	text-align: center;
+	border: 2px solid #20303c;
+}
+
+#Contacts {
+	text-align: center;
+	border: 2px solid #20303c;
+}
+
+footer {
+	text-align: center;
+}
 
 body {
     background-color: #f9fafa;
@@ -40,14 +64,10 @@ body {
     padding-bottom: 200px;
 }
 
-.Info {
-    grid-template-columns: auto auto;
-}
-
 /* Nav Bar */
 body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
-#main-menu .nav-bar { list-style:none; margin-top: 40px; }
+#main-menu .nav-bar { list-style:none; margin-top: 0px; }
 #main-menu .nav-bar li { display:inline; padding:0 0px; }
 
 #main-menu .nav-bar li a {
@@ -65,4 +85,3 @@ body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
 .nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
 
 /* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
-
